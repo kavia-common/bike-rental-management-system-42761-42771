@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@mobike.local",
+      "password_hash": "scrypt:32768:8:1$jjSUpjkIwaQTh2B2$086a7d16895dac0b393b6d3fa77871108d20149fe224a31eee6842ea9d2ffa5ac1bbea936acd5a6fd71592b06cbd7d165499b2ce3fc6210f54078f4d7f91e244",
+      "is_admin": true,
+      "created_at": 1768733770
+    },
+    {
+      "id": 2,
+      "name": "Demo User",
+      "email": "user@mobike.local",
+      "password_hash": "scrypt:32768:8:1$sCieO1rZKviqqa6H$ae733d75f326780d59463ca9dca9b58eacc97bbcd2f95ad34c429e9785977f0febe954bd871776f4f15e0a068d9530717e5ef8cd013fc014944c45470007f657",
+      "is_admin": false,
+      "created_at": 1768733770
+    }
+  ],
+  "bikes": [
+    {
+      "id": 1,
+      "name": "Ocean Rider",
+      "model": "City 1",
+      "location": "Campus Gate",
+      "rate_per_hour": 20.0,
+      "is_available": true,
+      "created_at": 1768733770,
+      "updated_at": 1768733770
+    },
+    {
+      "id": 2,
+      "name": "Blue Sprint",
+      "model": "Road 2",
+      "location": "Library",
+      "rate_per_hour": 25.0,
+      "is_available": true,
+      "created_at": 1768733770,
+      "updated_at": 1768733770
+    },
+    {
+      "id": 3,
+      "name": "Harbor Cruiser",
+      "model": "Hybrid 3",
+      "location": "Hostel Block A",
+      "rate_per_hour": 18.0,
+      "is_available": true,
+      "created_at": 1768733770,
+      "updated_at": 1768733770
+    }
+  ],
+  "rentals": []
+}
